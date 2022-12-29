@@ -17,6 +17,7 @@ brew 'saml2aws'
 brew 'six'
 brew 'spaceship'
 brew 'sqlite'
+brew 'thefuck'
 brew 'vault'
 brew 'xz'
 brew 'z'
@@ -41,6 +42,7 @@ brew 'brew-file'
 # App Store applications
 mas 'Alfred (1.2)', id: 405843582
 mas 'Final Cut Pro (10.6.5)', id: 424389933
+mas 'Hand Mirror (2.4)', id: 1502839586
 mas 'Keynote (12.2.1)', id: 409183694
 mas 'Logic Pro (10.7.6)', id: 634148309
 mas 'Numbers (12.2.1)', id: 409203825
