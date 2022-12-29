@@ -21,6 +21,7 @@ eval $(thefuck --alias damnit)
 
 # GFM specific
 export NEXT_SKIP_TRANSLATIONS=0
+alias blarg='(cd ~/workspace/docker-services; ./scripts/login.sh ecr_user)'
 
 # Wrap brew-file
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
