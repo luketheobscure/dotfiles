@@ -37,3 +37,12 @@ cask 'visual-studio-code'
 
 tap 'rcmdnk/file'
 brew 'brew-file'
+
+# App Store applications
+mas 'Alfred (1.2)', id: 405843582
+mas 'Final Cut Pro (10.6.5)', id: 424389933
+mas 'Keynote (12.2.1)', id: 409183694
+mas 'Logic Pro (10.7.6)', id: 634148309
+mas 'Numbers (12.2.1)', id: 409203825
+mas 'Pages (12.2.1)', id: 409201541
+mas 'Slack (4.29.149)', id: 803453959
