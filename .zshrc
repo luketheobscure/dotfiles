@@ -1,6 +1,11 @@
 export ZSH="$HOME/.oh-my-zsh"
 source $ZSH/oh-my-zsh.sh
 
+source ~/.oh-my-zsh/plugins/git/git.plugin.zsh
+
+# SPACESHIP THEME IS BEST THEME
+source /opt/homebrew/opt/spaceship/spaceship.zsh
+
 plugins=(git)
 
 export VOLTA_HOME="$HOME/.volta"
@@ -27,6 +32,3 @@ alias blarg='(cd ~/workspace/docker-services; ./scripts/login.sh ecr_user)'
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
   source $(brew --prefix)/etc/brew-wrap
 fi
-
-# SPACESHIP THEME IS BEST THEME
-source /opt/homebrew/opt/spaceship/spaceship.zsh
