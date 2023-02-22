@@ -27,6 +27,8 @@ eval $(thefuck --alias damnit)
 # GFM specific
 export NEXT_SKIP_TRANSLATIONS=0
 alias blarg='(cd ~/workspace/docker-services; ./scripts/login.sh ecr_user)'
+alias token='blarg | grep "s\..*" -o > .vault-token'
+alias startup='(cd ~/workspace/local-proxy && dc up -d) && (cd ~/workspace/ssr-frontend/apps/next-app && token && dc up -d)'
 
 # Wrap brew-file
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
