@@ -34,3 +34,6 @@ alias startup='(cd ~/workspace/local-proxy && dc up -d) && (cd ~/workspace/ssr-f
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
   source $(brew --prefix)/etc/brew-wrap
 fi
+
+source /Users/lukedeniston/.docker/init-zsh.sh || true # Added by Docker Desktop
+export PATH="/opt/homebrew/opt/ruby/bin:/Users/lukedeniston/bin:$PATH"
