@@ -33,6 +33,7 @@ brew 'devspace'
 brew 'docker'
 brew 'docutils'
 brew 'double-conversion'
+brew 'dtc'
 brew 'edencommon'
 brew 'fb303'
 brew 'fbthrift'
@@ -71,6 +72,7 @@ brew 'libb2'
 brew 'libbluray'
 brew 'libevent'
 brew 'libidn2'
+brew 'libmicrohttpd'
 brew 'libnghttp2'
 brew 'libogg'
 brew 'libpng'
@@ -120,6 +122,7 @@ brew 'pcre2'
 brew 'pixman'
 brew 'pnpm'
 brew 'pycparser'
+brew 'python-setuptools'
 brew 'python@3.10'
 brew 'python@3.11'
 brew 'qemu'
@@ -166,13 +169,12 @@ cask 'visual-studio-code'
 
 # App Store applications
 mas 'Alfred (1.2)', id: 405843582
-mas 'Final Cut Pro (10.6.5)', id: 424389933
+mas 'Final Cut Pro (10.6.10)', id: 424389933
 mas 'Hand Mirror (3.0.1)', id: 1502839586
 mas 'iHosts (1.4.0)', id: 1102004240
-mas 'Keynote (12.2.1)', id: 409183694
-mas 'Logic Pro (10.7.9)', id: 634148309
-mas 'Numbers (12.2.1)', id: 409203825
-mas 'Pages (12.2.1)', id: 409201541
-mas 'Playgrounds (4.3.1)', id: 1496833156
-mas 'Sequel Ace (4.0.5)', id: 1518036000
-mas 'Xcode (14.3.1)', id: 497799835
+mas 'Keynote (13.2)', id: 409183694
+mas 'Logic Pro (10.8)', id: 634148309
+mas 'Numbers (13.2)', id: 409203825
+mas 'Pages (13.2)', id: 409201541
+mas 'Sequel Ace (4.0.11)', id: 1518036000
+mas 'Xcode (15.0.1)', id: 497799835
