@@ -8,9 +8,6 @@ source /opt/homebrew/opt/spaceship/spaceship.zsh
 
 plugins=(git)
 
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
-
 # z... jump around
 . $(brew --prefix)/etc/profile.d/z.sh
 
@@ -21,6 +18,8 @@ dockerenter() {
 }
 alias dockenter=dockerenter
 
+alias p=pnpm
+
 # no swearing
 eval $(thefuck --alias damnit)
 
@@ -29,7 +28,12 @@ export NEXT_SKIP_TRANSLATIONS=0
 alias blarg='(cd ~/workspace/docker-services; ./scripts/login.sh ecr_user)'
 alias token='blarg | grep "s\..*" -o > .vault-token'
 alias startup='(cd ~/workspace/local-proxy && dc up -d) && (cd ~/workspace/ssr-frontend/apps/next-app && token && dc up -d)'
+
+# Android Development
 export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jbr/Contents/Home
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Wrap brew-file
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
@@ -38,3 +42,13 @@ fi
 
 source /Users/lukedeniston/.docker/init-zsh.sh || true # Added by Docker Desktop
 export PATH="/opt/homebrew/opt/ruby/bin:/Users/lukedeniston/bin:$PATH"
+export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
+source ~/completion-for-pnpm.bash
+. "/Users/lukedeniston/.deno/env"
+# pnpm
+export PNPM_HOME="/Users/lukedeniston/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
