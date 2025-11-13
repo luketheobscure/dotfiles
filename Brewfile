@@ -1,8 +1,6 @@
 
 # tap repositories and their packages
 
-tap 'homebrew/bundle'
-
 tap 'hashicorp/tap'
 brew 'vault'
 
