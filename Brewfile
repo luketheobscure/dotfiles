@@ -110,6 +110,7 @@ cask 'iterm2'
 cask 'mockoon'
 cask 'openlens'
 cask 'rectangle'
+cask 'switchhosts'
 cask 'visual-studio-code'
 cask 'vlc'
 
@@ -119,7 +120,6 @@ mas 'Alfred (1.2)', id: 405843582
 mas 'Final Cut Pro (11.2)', id: 424389933
 mas 'GIPHY CAPTURE (4.2)', id: 668208984
 mas 'Hand Mirror (3.2)', id: 1502839586
-mas 'iHosts (1.4.0)', id: 1102004240
 mas 'iMovie (10.4.3)', id: 408981434
 mas 'Keynote (14.4)', id: 409183694
 mas 'Logic Pro (11.2.2)', id: 634148309
