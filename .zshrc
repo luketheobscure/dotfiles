@@ -45,10 +45,8 @@ export PATH="/opt/homebrew/opt/ruby/bin:/Users/lukedeniston/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
 source ~/completion-for-pnpm.bash
 . "/Users/lukedeniston/.deno/env"
-# pnpm
-export PNPM_HOME="/Users/lukedeniston/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
+
+eval "$(fnm env --use-on-cd --shell zsh)"
+
+# Created by `pipx` on 2025-10-05 23:52:04
+export PATH="$PATH:/Users/lukedeniston/.local/bin"
