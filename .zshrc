@@ -22,9 +22,6 @@ if [ -f $(brew --prefix)/etc/brew-wrap ];then
   source $(brew --prefix)/etc/brew-wrap
 fi
 
-source /Users/lukedeniston/.docker/init-zsh.sh || true # Added by Docker Desktop
-
 source ~/completion-for-pnpm.bash
-. "/Users/lukedeniston/.deno/env"
 
 eval "$(fnm env --use-on-cd --shell zsh)"
