@@ -55,6 +55,7 @@ brew 'little-cms2'
 brew 'lz4'
 brew 'm4'
 brew 'mas'
+brew 'mkcert'
 brew 'mpdecimal'
 brew 'net-snmp'
 brew 'oniguruma'
@@ -90,9 +91,13 @@ cask 'font-fira-code'
 cask 'github'
 cask 'imageoptim'
 cask 'iterm2'
+cask 'lens'
 cask 'mockoon'
+cask 'mongodb-compass'
 cask 'openlens'
 cask 'rectangle'
+cask 'switchhosts'
+cask 'syntax-highlight'
 cask 'visual-studio-code'
 cask 'vlc'
 
@@ -105,11 +110,13 @@ brew 'brew-file'
 # App Store applications
 mas '1Password 7 (7.9.11)', id: 1333542190
 mas '1Password for Safari (8.11.18)', id: 1569813296
+mas 'Final Cut Pro (11.2)', id: 424389933
 mas 'GarageBand (10.4.12)', id: 682658836
 mas 'Hand Mirror (3.2)', id: 1502839586
-mas 'iHosts (1.4.0)', id: 1102004240
 mas 'iMovie (10.4.3)', id: 408981434
 mas 'Keynote (14.4)', id: 409183694
+mas 'Logic Pro (11.2.2)', id: 634148309
+mas 'MeetingBar (4.11.6)', id: 1532419400
 mas 'Numbers (14.4)', id: 409203825
 mas 'Pages (14.4)', id: 409201541
 mas 'Sequel Ace (5.0.9)', id: 1518036000
