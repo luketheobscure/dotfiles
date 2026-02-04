@@ -11,6 +11,7 @@ brew 'autoconf'
 brew 'awscli'
 brew 'brotli'
 brew 'ca-certificates'
+brew 'caddy'
 brew 'cffi'
 brew 'composer'
 brew 'cryptography'
@@ -71,14 +72,17 @@ brew 'pycparser'
 brew 'python@3.13'
 brew 'python@3.14'
 brew 'readline'
+brew 'ripgrep'
 brew 'rtmpdump'
 brew 'spaceship'
 brew 'sqlite'
 brew 'thefuck'
 brew 'tidy-html5'
 brew 'unixodbc'
+brew 'uv'
 brew 'webp'
 brew 'xz'
+brew 'yarn'
 brew 'z'
 brew 'zsh-async'
 brew 'zstd'
@@ -87,6 +91,7 @@ tap 'homebrew/cask'
 cask '1password'
 cask 'appcleaner'
 cask 'bruno'
+cask 'codex'
 cask 'font-fira-code'
 cask 'github'
 cask 'imageoptim'
@@ -104,19 +109,22 @@ cask 'vlc'
 tap 'hashicorp/tap'
 brew 'vault'
 
+tap 'oven-sh/bun'
+brew 'bun'
+
 tap 'rcmdnk/file'
 brew 'brew-file'
 
 # App Store applications
-mas '1Password 7 (7.9.11)', id: 1333542190
-mas '1Password for Safari (8.11.18)', id: 1569813296
+mas '1Password for Safari (8.11.20)', id: 1569813296
 mas 'Final Cut Pro (11.2)', id: 424389933
 mas 'GarageBand (10.4.12)', id: 682658836
 mas 'Hand Mirror (3.2)', id: 1502839586
 mas 'iMovie (10.4.3)', id: 408981434
 mas 'Keynote (14.4)', id: 409183694
 mas 'Logic Pro (11.2.2)', id: 634148309
+mas 'MainStage (3.7.1)', id: 634159523
 mas 'MeetingBar (4.11.6)', id: 1532419400
 mas 'Numbers (14.4)', id: 409203825
 mas 'Pages (14.4)', id: 409201541
-mas 'Sequel Ace (5.0.9)', id: 1518036000
+mas 'Sequel Ace (5.1.0)', id: 1518036000
