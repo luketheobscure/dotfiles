@@ -25,7 +25,6 @@ brew 'pnpm'
 brew 'postgresql@18'
 brew 'rbenv'
 brew 'spaceship'
-brew 'thefuck'
 brew 'yarn'
 brew 'z'
 

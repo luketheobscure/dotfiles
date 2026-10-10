@@ -14,9 +14,6 @@ plugins=(git)
 # Usseful aliases
 alias p=pnpm
 
-# no swearing
-eval $(thefuck --alias damnit)
-
 # Wrap brew-file (only record packages installed on purpose, not dependencies)
 export HOMEBREW_BREWFILE_ON_REQUEST=1
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
