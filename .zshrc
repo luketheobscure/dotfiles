@@ -25,3 +25,5 @@ fi
 source ~/completion-for-pnpm.bash
 
 eval "$(fnm env --use-on-cd --shell zsh)"
+
+path+=($HOME/.local/bin/)
