@@ -1,0 +1,13 @@
+# Ported from iTerm2 Default profile
+theme = light:iterm-light,dark:iterm-dark
+font-family = Fira Code
+font-size = 14
+cursor-style-blink = false
+working-directory = home
+window-inherit-working-directory = true
+confirm-close-surface = false
+clipboard-read = allow
+clipboard-write = allow
+
+# iTerm had Option sending normal chars; herdr/tmux-style Alt bindings need this
+macos-option-as-alt = true
