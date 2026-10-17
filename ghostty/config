@@ -1,7 +1,11 @@
 # Ported from iTerm2 Default profile
-theme = light:iterm-light,dark:iterm-dark
+theme = light:iterm-light,dark:iTerm2 Smoooooth
 font-family = Fira Code
+# iTerm uses the variable font at Regular (400); VF defaults to Light otherwise
+font-variation = wght=400
 font-size = 14
+# match iTerm/macOS font smoothing (iTerm only uses thin strokes on dark bg)
+font-thicken = true
 cursor-style-blink = false
 working-directory = home
 window-inherit-working-directory = true

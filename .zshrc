@@ -1,23 +1,23 @@
 export ZSH="$HOME/.oh-my-zsh"
+plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
-source ~/.oh-my-zsh/plugins/git/git.plugin.zsh
-
 # SPACESHIP THEME IS BEST THEME
-source /opt/homebrew/opt/spaceship/spaceship.zsh
+source $HOMEBREW_PREFIX/opt/spaceship/spaceship.zsh
 
-plugins=(git)
+# z... jump around (zoxide, imported from z.sh)
+eval "$(zoxide init zsh --cmd z)"
 
-# z... jump around
-. $(brew --prefix)/etc/profile.d/z.sh
+# fuzzy ctrl+r history, ctrl+t files
+source <(fzf --zsh)
 
 # Usseful aliases
 alias p=pnpm
 
 # Wrap brew-file (only record packages installed on purpose, not dependencies)
 export HOMEBREW_BREWFILE_ON_REQUEST=1
-if [ -f $(brew --prefix)/etc/brew-wrap ];then
-  source $(brew --prefix)/etc/brew-wrap
+if [ -f $HOMEBREW_PREFIX/etc/brew-wrap ];then
+  source $HOMEBREW_PREFIX/etc/brew-wrap
 fi
 
 source ~/completion-for-pnpm.bash
